@@ -233,7 +233,7 @@ A fallback mesh is a simplified, textured, unlit mesh of the same scene, built f
 
 The editor is blocked while it builds, and there is no cancel. For the showroom, building the default three tiers took about three and a half to five and a half minutes and peaked at around 15 GB of RAM.
 
-The meshes are saved next to the splat asset (by default in `/Game/Splats/`) as `SM_<Name>_Fallback_Low`, `_Mid` and `_High` (100,000, 300,000 and 750,000 triangles). Unless you set an **Asset Name** in the fallback settings, `<Name>` is the first folder of that path with any leading `Env_` removed, so in a normal project the meshes are `SM_Game_Fallback_Low`, `SM_Game_Fallback_Mid` and `SM_Game_Fallback_High`. To look at one, drag it into a level and leave it at the origin with no rotation.
+The meshes are saved next to the splat asset (by default in `/Game/Splats/`) as `SM_<Name>_Fallback_Low`, `_Mid` and `_High` (100,000, 300,000 and 750,000 triangles). Unless you set an **Asset Name** in the fallback settings, `<Name>` is the splat asset's name without its `SPL_` prefix, so for `SPL_Showroom` the meshes are `SM_Showroom_Fallback_Low`, `SM_Showroom_Fallback_Mid` and `SM_Showroom_Fallback_High`. To look at one, drag it into a level and leave it at the origin with no rotation.
 
 Harmony does not switch to a fallback mesh by itself yet. You place it yourself. [Running on low-end hardware](03_LowEndHardware.md) covers how to use it today, and [Fallback mesh](../Baking/07_FallbackMesh.md) has the full reference.
 

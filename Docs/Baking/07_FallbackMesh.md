@@ -40,7 +40,7 @@ The build uses the newest base capture of the level for the rig's **Output Asset
 
 ## What is written
 
-Assets go in the same folder as the splat asset, by default `<content root>/Splats/`:
+Assets go in the same folder as the splat asset, by default `<content root>/Splats/`. `<Name>` is the splat asset's name without its `SPL_` prefix (for `SPL_Showroom`, `Showroom`) unless you set an **Asset Name** in the [settings](#settings):
 
 | Asset | What it is |
 |---|---|
@@ -79,7 +79,7 @@ The defaults are a good starting point. The settings most worth knowing:
 |---|---|---|
 | **Tiers** | Low, Mid, High | The tiers to build. Each has a **Name** (used in asset names), a **Triangles** budget (minimum 1,000) and a number of texture **Pages** (1 to 16). Remove tiers you do not need to save time. |
 | **Page Size** | 4096 | Size of each texture page, 256 to 8192. |
-| **Asset Name** | Empty | Base name of the assets. Empty uses the first folder of the output path with any leading `Env_` removed, so with the default output folder of a normal project (`/Game/Splats/`) the meshes are named `SM_Game_Fallback_<Tier>`. Set a name for each scene: two scenes whose splats share a folder would otherwise overwrite each other's meshes. |
+| **Asset Name** | Empty | Base name of the assets. Empty uses the name of the splat asset without its `SPL_` prefix, so the fallbacks of `SPL_Showroom` are `SM_Showroom_Fallback_<Tier>`. If the cache records no splat asset, the first folder of the output path is used, with any leading `Env_` removed. |
 | **Sky Dome Radius** | 3000 m | Radius of the sky dome. 0 builds none. |
 | **Glossy Floor** | On | Detects a glossy floor and gives it a cubemap reflection. |
 | **Foliage Hull Closing** | Off | Helps foliage-heavy scenes hold together. Leave it off for hard-surface scenes, where it misfires. |

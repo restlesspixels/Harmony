@@ -27,7 +27,7 @@ In the rig's **Details** panel, under **Camera Locations**:
 | **Include Bounds** | A list of boxes that hold camera positions, drawn green. Each has a **Location** (relative to the rig) and a **Box Extent** (half size, in cm) under **Shape**. Boxes can be rotated. |
 | **Exclude Bounds** | A list of boxes where no camera is placed, drawn red. Use them to keep cameras out of a pillar, a wall or the space a car occupies. |
 | **Show Camera Sample Markers** | Shows each camera position as a small green cube. |
-| **GenerateCameraSamples** (button) | Rebuilds the camera positions. This also happens automatically when you edit the rig. |
+| **Generate Camera Samples** (button) | Rebuilds the camera positions. This also happens automatically when you edit the rig. |
 
 ![The Camera Locations category of the rig's Details panel](../Images/baking/rig-details-camera-locations.png)
 
@@ -117,7 +117,7 @@ Pattern cameras cover the view area evenly. A custom view adds extra training da
 
 ![The Custom Views category](../Images/baking/rig-details-custom-views.png)
 
-To add one: move the level viewport to the view you want, select the rig, and under **Custom Views** press **CaptureCurrentView**. Each entry has:
+To add one: move the level viewport to the view you want, select the rig, and under **Custom Views** press **Capture Current View**. Each entry has:
 
 | Setting | Default | What it does |
 |---|---|---|
@@ -130,7 +130,7 @@ To add one: move the level viewport to the view you want, select the rig, and un
 
 Each enabled custom view adds 1 + **Cluster Size** shots after the pattern shots.
 
-**Example.** A configurator has a fixed "front three-quarter" camera 5 m from the car. Fly the viewport to that camera, press **CaptureCurrentView**, set **Focus Distance** to 500. The capture gains 9 shots concentrated on exactly that view.
+**Example.** A configurator has a fixed "front three-quarter" camera 5 m from the car. Fly the viewport to that camera, press **Capture Current View**, set **Focus Distance** to 500. The capture gains 9 shots concentrated on exactly that view.
 
 **Shot Set** chooses which shots the rig captures:
 
