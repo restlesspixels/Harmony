@@ -22,7 +22,7 @@ Harmony Data Assets have no custom thumbnail. Hover over one to see:
 | **Convert to Compressed** | Expanded 3D Gaussian assets | Creates and saves `<Name>_Compressed`. The original is unchanged. |
 | **Decimate...** | 3D Gaussian assets | Asks for a percentage to keep, then creates and saves `<Name>_Decimated<NN>`. The original is unchanged. Variant sets are not carried over. |
 | **Export to .harmony...** | All | Writes the complete asset to an engine-independent file. See [.harmony files](08_HarmonyFile.md). |
-| **Export to PLY...** | All | Asks for a folder, then writes a standard Gaussian splat PLY of the base look, plus one PLY per baked variant option. Lighting data is not included. 3D Gaussian assets only: the entry is also shown for BB Splat assets, but it writes nothing for them and reports an error in the Output Log. |
+| **Export to PLY...** | 3D Gaussian assets | Asks for a folder, then writes a standard Gaussian splat PLY of the base look, plus one PLY per baked variant option. Lighting data is not included. Hidden when the selection includes a BB Splat asset. |
 
 The first two are covered in [Compression and decimation](05_CompressionAndDecimation.md). All four work on a multiple selection.
 
@@ -30,7 +30,7 @@ The first two are covered in [Compression and decimation](05_CompressionAndDecim
 
 ## In the asset's Details
 
-Double-click the asset. There is no custom editor; the standard property window opens. Almost every field is read-only because the data is produced by importing or baking.
+Double-click the asset. There is no custom editor; the standard property window opens. Almost every field is read-only because the data is produced by importing or baking. The exception is **Antialiased**.
 
 ### Gaussian Splat > Splat Data
 
@@ -45,11 +45,11 @@ Double-click the asset. There is no custom editor; the standard property window 
 | **Estimated Serialized Size MB** | Estimated size of the splat data on disk. |
 | **Encoding** | **Expanded** (full-precision floats) or **Compressed** (quantised). |
 | **Representation** | **3D Gaussian** or **BB Splat (Textured Billboard)**. |
-| **Antialiased** | The splat was trained with an anti-aliasing filter (Mip-Splatting, or gsplat's "antialiased" mode). Harmony then applies the matching opacity correction when drawing. Set automatically for splats trained in Harmony; greyed out here like the rest of the section. |
+| **Antialiased** | The splat was trained with an anti-aliasing filter (Mip-Splatting, or gsplat's "antialiased" mode). Harmony then applies the matching opacity correction when drawing. Set automatically for splats trained in Harmony. The only editable field in this section. |
 | **Source Asset Path** | For a decimated asset, the asset it was made from. Empty otherwise. |
 | **Decimation Target Ratio** | For a decimated asset, the fraction that was kept. 1.0 means not decimated. |
 
-Splats imported from `.ply` and the other splat formats never have **Antialiased** set (a `.harmony` file keeps the value it was exported with), and this release has no per-asset way to set it. If your imported splats were trained with an anti-aliasing filter, the console variable `r.Harmony.Tuning.Preprocess.OpacityCompensation 1` applies the same correction to every splat in the project. Only use it if all your splats were trained that way; on ordinary splats it dims and removes thin, distant splats.
+Splats imported from `.ply` and the other splat formats never have **Antialiased** set (a `.harmony` file keeps the value it was exported with). If an imported splat was trained with an anti-aliasing filter, tick **Antialiased** on its asset and save it. Leave it off for ordinary splats: on them the correction dims and removes thin, distant splats. The console variable `r.Harmony.Tuning.Preprocess.OpacityCompensation 1` applies the same correction to every splat in the project regardless of the asset setting.
 
 **Packed**
 

@@ -174,7 +174,7 @@ How to build one:
 1. Select the **Harmony Capture Rig** in the level you baked.
 2. Press **Build Fallback Mesh From Last Capture** in the **Capture** category.
 
-The build needs Windows with an SM6-capable GPU, and the capture must still be in the dataset cache. It blocks the editor for a few minutes. The meshes are saved in the same folder as the splat asset, named `SM_<Name>_Fallback_<Tier>`. Unless you set an **Asset Name**, `<Name>` is the first folder of the output path with any leading `Env_` removed, so in a normal `/Game` project you get `SM_Game_Fallback_Low`, `_Mid` and `_High`. Details are in [Fallback mesh](../Baking/07_FallbackMesh.md).
+The build needs Windows with an SM6-capable GPU, and the capture must still be in the dataset cache. It blocks the editor for a few minutes. The meshes are saved in the same folder as the splat asset, named `SM_<Name>_Fallback_<Tier>`. Unless you set an **Asset Name**, `<Name>` is the splat asset's name without its `SPL_` prefix, so `SPL_Showroom` gives `SM_Showroom_Fallback_Low`, `_Mid` and `_High`. Details are in [Fallback mesh](../Baking/07_FallbackMesh.md).
 
 ### Using it today
 
