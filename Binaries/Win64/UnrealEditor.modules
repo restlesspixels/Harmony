@@ -1,0 +1,14 @@
+{
+	"BuildId": "60738873",
+	"Modules": 
+	{
+		"Harmony": "UnrealEditor-Harmony.dll",
+		"HarmonyCapture": "UnrealEditor-HarmonyCapture.dll",
+		"HarmonyEditor": "UnrealEditor-HarmonyEditor.dll",
+		"HarmonyFallbackEditor": "UnrealEditor-HarmonyFallbackEditor.dll",
+		"HarmonyShaders": "UnrealEditor-HarmonyShaders.dll",
+		"HarmonyTraining": "UnrealEditor-HarmonyTraining.dll",
+		"HarmonyTrainingEditor": "UnrealEditor-HarmonyTrainingEditor.dll",
+		"HarmonyVariantManager": "UnrealEditor-HarmonyVariantManager.dll"
+	}
+}

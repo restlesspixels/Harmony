@@ -1,0 +1,14 @@
+{
+	"BuildId": "60738873",
+	"Modules": 
+	{
+		"Harmony": "libUnrealEditor-Harmony.dylib",
+		"HarmonyCapture": "libUnrealEditor-HarmonyCapture.dylib",
+		"HarmonyEditor": "libUnrealEditor-HarmonyEditor.dylib",
+		"HarmonyFallbackEditor": "libUnrealEditor-HarmonyFallbackEditor.dylib",
+		"HarmonyShaders": "libUnrealEditor-HarmonyShaders.dylib",
+		"HarmonyTraining": "libUnrealEditor-HarmonyTraining.dylib",
+		"HarmonyTrainingEditor": "libUnrealEditor-HarmonyTrainingEditor.dylib",
+		"HarmonyVariantManager": "libUnrealEditor-HarmonyVariantManager.dylib"
+	}
+}

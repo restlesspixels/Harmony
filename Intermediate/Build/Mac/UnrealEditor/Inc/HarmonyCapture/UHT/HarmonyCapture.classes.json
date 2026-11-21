@@ -1,0 +1,32 @@
+{
+  "Classes": [
+    "HarmonyCaptureBoundsComponent",
+    "HarmonyCaptureGridSampler",
+    "HarmonyCaptureRadialSampler",
+    "HarmonyCaptureRig",
+    "HarmonyCaptureSampleMarker",
+    "HarmonyMaterialVariantSource",
+    "HarmonyVariantSource"
+  ],
+  "Structs": [
+    "HarmonyCaptureCustomView",
+    "HarmonyCaptureJobSettings",
+    "HarmonyCaptureVariantSet",
+    "HarmonyMaterialSavedSlot",
+    "HarmonyMaterialSavedSlots",
+    "HarmonyMaterialSwap",
+    "HarmonyMaterialVariantOption",
+    "HarmonyMaterialVariantSet",
+    "HarmonyVariantProbeOverride"
+  ],
+  "Enums": [
+    "EHarmonyCaptureExposure",
+    "EHarmonyCaptureRadiusMode",
+    "EHarmonyCaptureSamplingPattern",
+    "EHarmonyCaptureShotSet",
+    "EHarmonyFloorReflectionBake",
+    "EHarmonyVariantProbeStore"
+  ],
+  "Delegates": [],
+  "ScriptNames": {}
+}

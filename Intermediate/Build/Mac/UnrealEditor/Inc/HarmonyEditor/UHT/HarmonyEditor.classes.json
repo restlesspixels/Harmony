@@ -1,0 +1,13 @@
+{
+  "Classes": [
+    "HarmonyDataAssetActorFactory",
+    "HarmonyEditorImportSettings",
+    "HarmonyFileFactory",
+    "HarmonyFileLibrary",
+    "HarmonyPlyFactory"
+  ],
+  "Structs": [],
+  "Enums": [],
+  "Delegates": [],
+  "ScriptNames": {}
+}

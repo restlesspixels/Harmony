@@ -1,0 +1,23 @@
+{
+  "Classes": [
+    "HarmonyCaptureJobSubsystem",
+    "HarmonyTrainingEditorDepthLibrary",
+    "HarmonyTrainingEditorLibrary",
+    "HarmonyTrainingEditorSubsystem",
+    "HarmonyTrainingMoviePipelineOutput",
+    "HarmonyTrainingSettings"
+  ],
+  "Structs": [
+    "HarmonyTrainingCaptureResult",
+    "HarmonyTrainingRequest",
+    "HarmonyTrainingStatus"
+  ],
+  "Enums": [
+    "EHarmonyTrainingCacheMode",
+    "EHarmonyTrainingInitMode"
+  ],
+  "Delegates": [
+    "OnHarmonyTrainingFinished__DelegateSignature"
+  ],
+  "ScriptNames": {}
+}

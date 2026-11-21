@@ -1,0 +1,16 @@
+{
+  "Classes": [
+    "HarmonyFallbackBuildSettings",
+    "HarmonyFallbackLibrary"
+  ],
+  "Structs": [
+    "HarmonyFallbackOptionSource",
+    "HarmonyFallbackSettings",
+    "HarmonyFallbackTier"
+  ],
+  "Enums": [
+    "EHarmonyFallbackVariantGeometry"
+  ],
+  "Delegates": [],
+  "ScriptNames": {}
+}

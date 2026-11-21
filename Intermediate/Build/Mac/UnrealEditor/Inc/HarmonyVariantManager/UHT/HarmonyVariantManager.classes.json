@@ -1,0 +1,12 @@
+{
+  "Classes": [
+    "HarmonyLevelVariantSetsSource",
+    "HarmonyVariantManagerSync"
+  ],
+  "Structs": [
+    "HarmonyLevelVariantSetsSaved"
+  ],
+  "Enums": [],
+  "Delegates": [],
+  "ScriptNames": {}
+}

@@ -1,0 +1,68 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0.1",
+	"FriendlyName": "Harmony",
+	"Description": "Harmony Gaussian splat rendering using UE5 RHI",
+	"Category": "Rendering",
+	"CreatedBy": "Spacemonster",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.9.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HarmonyShaders",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "Harmony",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "HarmonyTraining",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "HarmonyEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HarmonyTrainingEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HarmonyFallbackEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "HarmonyCapture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HarmonyVariantManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "VariantManagerContent",
+			"Enabled": true
+		}
+	]
+}

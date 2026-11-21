@@ -1,0 +1,177 @@
+{
+  "BuildId": "60738873",
+  "Modules": {
+    "Harmony": {
+      "Classes": [
+        "HarmonyActor",
+        "HarmonyComponent",
+        "HarmonyDataAsset",
+        "HarmonyLightingComponent",
+        "HarmonyProxyRTSubsystem",
+        "HarmonySettings",
+        "HarmonyShadowCatcherComponent",
+        "HarmonySubsystem",
+        "HarmonyVariantSelection",
+        "HarmonyVolumeActor",
+        "HarmonyVolumeComponent"
+      ],
+      "Structs": [
+        "HarmonyAlphaFadeSettings",
+        "HarmonyCompressedQuantization",
+        "HarmonyCompressedQuantizationChannel",
+        "HarmonyCompressionFormat",
+        "HarmonyDepthOffsetSettings",
+        "HarmonyFallbackOption",
+        "HarmonyFallbackTierAssets",
+        "HarmonyLightingProbe",
+        "HarmonyProxyRenderTargetSet",
+        "HarmonyRawData",
+        "HarmonyReflectionProxy",
+        "HarmonyShadowProxy",
+        "HarmonySplatVariantOption",
+        "HarmonySplatVariantSet",
+        "HarmonyVariantPointSet",
+        "HarmonyVariantSHBand"
+      ],
+      "Enums": [
+        "EHarmonyAssetEncoding",
+        "EHarmonyCompositionMode",
+        "EHarmonyCompressionPreset",
+        "EHarmonyFallbackOptionKind",
+        "EHarmonyLightScene",
+        "EHarmonyPrimitiveRepresentation",
+        "EHarmonyShadowGround",
+        "EHarmonySortingMode",
+        "EHarmonySplatDepthOffsetMode",
+        "EHarmonyTonemapCompensationMethod",
+        "EHarmonyTonemapMaskMode",
+        "EHarmonyTonemappingMode",
+        "EHarmonyVariantPointSetMode",
+        "EHarmonyVariantSHRestMode",
+        "EHarmonyVariantSlot1",
+        "EHarmonyVariantSlot2",
+        "EHarmonyVariantSlot3",
+        "EHarmonyVariantSlot4",
+        "EHarmonyVolumeBoundaryMode",
+        "EHarmonyVolumeEffectMode",
+        "EHarmonyVolumeEvaluationStage",
+        "EHarmonyVolumeRuleMode",
+        "EHarmonyVolumeShape"
+      ],
+      "Delegates": [],
+      "ScriptNames": {}
+    },
+    "HarmonyCapture": {
+      "Classes": [
+        "HarmonyCaptureBoundsComponent",
+        "HarmonyCaptureGridSampler",
+        "HarmonyCaptureRadialSampler",
+        "HarmonyCaptureRig",
+        "HarmonyCaptureSampleMarker",
+        "HarmonyMaterialVariantSource",
+        "HarmonyVariantSource"
+      ],
+      "Structs": [
+        "HarmonyCaptureCustomView",
+        "HarmonyCaptureJobSettings",
+        "HarmonyCaptureVariantSet",
+        "HarmonyMaterialSavedSlot",
+        "HarmonyMaterialSavedSlots",
+        "HarmonyMaterialSwap",
+        "HarmonyMaterialVariantOption",
+        "HarmonyMaterialVariantSet",
+        "HarmonyVariantProbeOverride"
+      ],
+      "Enums": [
+        "EHarmonyCaptureExposure",
+        "EHarmonyCaptureRadiusMode",
+        "EHarmonyCaptureSamplingPattern",
+        "EHarmonyCaptureShotSet",
+        "EHarmonyFloorReflectionBake",
+        "EHarmonyVariantProbeStore"
+      ],
+      "Delegates": [],
+      "ScriptNames": {}
+    },
+    "HarmonyEditor": {
+      "Classes": [
+        "HarmonyDataAssetActorFactory",
+        "HarmonyEditorImportSettings",
+        "HarmonyFileFactory",
+        "HarmonyFileLibrary",
+        "HarmonyPlyFactory"
+      ],
+      "Structs": [],
+      "Enums": [],
+      "Delegates": [],
+      "ScriptNames": {}
+    },
+    "HarmonyFallbackEditor": {
+      "Classes": [
+        "HarmonyFallbackBuildSettings",
+        "HarmonyFallbackLibrary"
+      ],
+      "Structs": [
+        "HarmonyFallbackOptionSource",
+        "HarmonyFallbackSettings",
+        "HarmonyFallbackTier"
+      ],
+      "Enums": [
+        "EHarmonyFallbackVariantGeometry"
+      ],
+      "Delegates": [],
+      "ScriptNames": {}
+    },
+    "HarmonyShaders": {
+      "Classes": [],
+      "Structs": [],
+      "Enums": [],
+      "Delegates": [],
+      "ScriptNames": {}
+    },
+    "HarmonyTraining": {
+      "Classes": [
+        "HarmonyTrainingLibrary"
+      ],
+      "Structs": [],
+      "Enums": [],
+      "Delegates": [],
+      "ScriptNames": {}
+    },
+    "HarmonyTrainingEditor": {
+      "Classes": [
+        "HarmonyCaptureJobSubsystem",
+        "HarmonyTrainingEditorDepthLibrary",
+        "HarmonyTrainingEditorLibrary",
+        "HarmonyTrainingEditorSubsystem",
+        "HarmonyTrainingMoviePipelineOutput",
+        "HarmonyTrainingSettings"
+      ],
+      "Structs": [
+        "HarmonyTrainingCaptureResult",
+        "HarmonyTrainingRequest",
+        "HarmonyTrainingStatus"
+      ],
+      "Enums": [
+        "EHarmonyTrainingCacheMode",
+        "EHarmonyTrainingInitMode"
+      ],
+      "Delegates": [
+        "OnHarmonyTrainingFinished__DelegateSignature"
+      ],
+      "ScriptNames": {}
+    },
+    "HarmonyVariantManager": {
+      "Classes": [
+        "HarmonyLevelVariantSetsSource",
+        "HarmonyVariantManagerSync"
+      ],
+      "Structs": [
+        "HarmonyLevelVariantSetsSaved"
+      ],
+      "Enums": [],
+      "Delegates": [],
+      "ScriptNames": {}
+    }
+  }
+}
